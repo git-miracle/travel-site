@@ -1,6 +1,2 @@
-var gulp = require('gulp');
-
-gulp.task('defult',function(){
-    console.log("hooray-you created gulp task.");
-    
-});
+require('./gulp/task/styles');
+require('./gulp/task/watch');
